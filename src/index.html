@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Rafael Falaschi, desenvolvedor front-end">
+    <meta name="author" content="Rafael Falaschi">
+
+    <title>Portfólio | Rafael Falaschi</title>
+
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+</head>
+
+<body class="m-0 p-0 box-content  bg-colorAzulEscuro dark:bg-colorDark ">
+    <header class="fixed bg-colorDesfoque w-full z-40 after:content-[''] after:block after:absolute after:w-full after:h-[0.1rem] after:bg-[linear-gradient(90deg,_rgb(40,148,236)_0%,_rgb(150,43,238)_92.32%)]">
+        <div class="container m-auto max-w-96 p-2 sm:max-w-xl md:max-w-3xl lg:max-w-5xl xl:max-w-6xl">
+            <nav class="flex justify-between items-center py-2">
+
+                <button class="material-symbols-outlined cursor-pointer text-white" id="menu-btn" aria-label="abrir menu">
+                    menu
+                </button>
+
+                <a href="#inicio" class="text-white text-2xl transition-all duration-[4000ms] ease hover:scale-[1.1]">
+                    Port<span class="text-colorPiscina">fólio</span>
+                </a>
+
+                <i class="fa-solid fa-lightbulb text-azulEscuro text-lg cursor-pointer text-white" id="darkmode" aria-label="ativar darkmode"></i>
+
+                <ul id="menu" class="absolute top-1/2 left-1/2 transform translate-x-[-50%] translate-y-[40%] sm:translate-y-[50%] md:translate-y-[60%] lg:translate-y-[70%] xl:translate-y-[80%] text-center hidden text-white text-3xl">
+                    <li class="p-5 list-none transition-all duration-[300ms] ease hover:scale-[1.1] "><a href="#inicio" class=" hover:text-colorPiscina  duration-[300ms]">inicio</a></li>
+                    <li class="p-5 list-none transition-all duration-[300ms] ease hover:scale-[1.1]"><a href="#sobre" class=" hover:text-colorPiscina  duration-[300ms]">Sobre</a></li>
+                    <li class="p-5 list-none transition-all duration-[300ms] ease hover:scale-[1.1]"><a href="#habilidades" class=" hover:text-colorPiscina  duration-[300ms]">Habilidades</a></li>
+                    <li class="p-5 list-none transition-all duration-[300ms] ease hover:scale-[1.1]"><a href="#projetos" class=" hover:text-colorPiscina  duration-[300ms]">Projetos</a></li>
+                    <li class="p-5 list-none transition-all duration-[300ms] ease hover:scale-[1.1]"><a href="#contato" class=" hover:text-colorPiscina  duration-[300ms]">Contatos</a></li>
+                </ul>
+
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <div id="blur-overlay" class="fixed inset-0 w-screen h-screen backdrop-blur-[15px] bg-black/20 z-10 opacity-0 pointer-events-none transition-opacity duration-300 ease-in-out"> </div>
+
+            <div class="container max-w-80 sm:max-w-xl m-auto flex flex-col items-center justify-center gap-4 min-h-screen">
+                <figure>
+                    <img src="./assets/foto-perfil/foto perfil.jpg" class="rounded-full max-w-full animate-float mb-5"
+                        alt="Rafael Falaschi">
+                </figure>
+
+                <h1 class="text-2xl text-white">
+                    Olá, me chamo <span class="text-colorPiscina">Rafael Falaschi</span>
+                </h1>
+
+                <p class="text-2xl text-white  overflow-hidden whitespace-nowrap animate-typing text-center"> Desenvolvedor <span class="text-colorPiscina border-r-2 animate-blinking">Front-end.</span></p>
+
+                <div>
+                    <a href="./assets/curriculo/RAFAEL FALASCHI.pdf" download="Curriculo_Rafael_Falaschi.pdf" class="border text-white p-2 rounded-xl bg-colorPiscina font-medium m-2 sm:m-6 text-sm" aria-label="link do curriculo">
+                        <i class="fas fa-download" aria-hidden="true"></i> Download CV
+                    </a>
+                    
+                    <a href="mailto:rafinhabraga2324@gmail.com" class="border text-white p-2 rounded-xl bg-colorPiscina font-medium text-sm" aria-label="link do gmail">
+                        <i class="fas fa-envelope" aria-hidden="true"></i> Entrar em contato
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div class="container max-w-96 p-4 m-auto sm:max-w-xl  md:max-w-3xl lg:max-w-4xl xl:max-w-6xl">
+                <h2 class="text-center text-2xl text-white lg:text-3xl lg:mb-6">Um pouco sobre mim!</h2>
+
+            <section class="lg:flex lg:gap-4">
+                <figure class="sm:w-9/12 lg:w-6/12 xl:w-5/12 mx-auto" >
+                    <img src="./assets/foto-perfil/foto perfil.jpg" alt="Foto de perfil Rafael Falaschi" class="rounded-t-2xl mt-4 object-cover w-full">
+                </figure>
+
+                <div class="text-white text-justify lg:w-6/12 xl:w-7/12">
+                    <h3 class="text-lg mt-4 xl:text-2xl xl:p-5">
+                        Me chamo Rafael Falaschi e sou <span class="text-colorPiscina">Desenvolvedor Front-end.</span>
+                    </h3>
+
+                    <p class="xl:text-xl">
+                        Atualmente curso Análise e Desenvolvimento de Sistemas na
+                        <a href="https://www.unipar.br/" target="_blank" aria-label="link da faculdade"><span class="text-red-500">Unipar -
+                                Universidade
+                                Paranaense</span></a>, onde venho ampliando meus
+                        conhecimentos em programação e desenvolvimento web.
+                    </p>
+
+                    <p class="xl:text-xl">
+                        Tenho paixão por tecnologia e estou sempre em busca de novos aprendizados que me ajudem a
+                        evoluir como desenvolvedor.
+                        Meu foco é criar interfaces modernas, acessíveis e funcionais, buscando constantemente
+                        melhorar minhas habilidades técnicas e colaborar em projetos que proporcionem impacto
+                        positivo.
+                    </p>
+
+                    <p class="xl:text-xl">
+                        Estou comprometido com meu crescimento profissional e aberto a oportunidades que me desafiem
+                        a aprender cada vez mais, contribuindo com dedicação e proatividade em cada etapa do
+                        desenvolvimento.
+                    </p>
+                
+
+                <ul class="flex gap-2 mt-4  sm:justify-center sm:gap-6 sm:text-base ">
+
+                    <li class="p-2  bg-blue-500 rounded-lg text-white text-xs sm:text-base hover:scale-[1.1] duration-500">
+                        <a href="https://wa.me/5544997032921?text=Olá,%20quero%20falar%20com%20você!" target="_blank" aria-label="link do linkdelin">
+                            <i class="fa-brands fa-linkedin mr-2 text-xs sm:text-base" aria-hidden="true"></i>Linkedin
+                        </a>
+                    </li>
+
+                    <li class="p-2  bg-green-600 rounded-lg text-white text-xs sm:text-base hover:scale-[1.1] duration-500">
+                        <a href="https://wa.me/5544997032921?text=Olá,%20quero%20falar%20com%20você!" target="_blank" aria-label="link do whatssap">
+                            <i class="fa-brands fa-whatsapp mr-2 text-xs sm:text-base" aria-hidden="true"></i>WhatsApp
+                        </a>
+                    </li>
+
+                    <li class="p-2  bg-red-700 rounded-lg text-white text-xs sm:text-base hover:scale-[1.1] duration-500">
+                        <a href="mailto:rafaelfalaschi15@gmail.com" target="_blank" aria-label="link do gmail">
+                            <i class="fa-solid fa-envelope mr-2 text-xs sm:text-base" aria-hidden="true"></i>Gmail
+                        </a>
+                    </li>
+
+                    <li class="p-2  bg-gray-700 rounded-lg text-white text-xs sm:text-base hover:scale-[1.1] duration-500">
+                        <a href="https://github.com/Falaschi01" target="_blank" aria-label="link do github">
+                            <i class="fa-brands fa-github mr-2 text-xs sm:text-base " aria-hidden="true"></i>GitHub
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </section>
+            </div>
+        </section>
+
+        <section id="habilidades" class="lg:mt-20">
+            <div class="container max-w-96 p-4  sm:max-w-xl m-auto">
+                <h2 class="text-center text-2xl text-white my-4 lg:text-3xl lg:mb-6">Habilidades</h2>
+
+                <ul class="grid grid-cols-3 gap-4 text-sm mt-4 sm:grid-cols-5 ">
+                    <li class="border rounded-s-lg flex flex-col items-center p-1 max-w-24 bg-white hover:scale-[1.1] duration-500">
+                        <p class="text-orange-400">HTML5</p>
+                        <i class="fa-brands fa-html5 text-orange-400 text-5xl" aria-hidden="true"></i>
+                    </li>
+
+                    <li class="border rounded-e-lg flex flex-col items-center p-1 max-w-24 bg-white hover:scale-[1.1] duration-500">
+                        <p class="text-blue-500">CSS3</p>
+                        <i class="fa-brands fa-css3-alt text-blue-500 text-5xl" aria-hidden="true"></i>
+                    </li>
+
+                    <li class="border rounded-s-lg flex flex-col items-center p-1 max-w-24 bg-white hover:scale-[1.1] duration-500">
+                        <p class="text-yellow-400">JAVASCRIPT</p>
+                        <i class="fa-brands fa-js text-yellow-400 text-5xl" aria-hidden="true"></i>
+                    </li>
+
+                    <li class="border rounded-s-lg flex flex-col items-center p-1 max-w-24 bg-white hover:scale-[1.1] duration-500">
+                        <p class="text-blue-400">TAILWIND</p>
+                        <img src="./assets/icon-tailwind/icon-tailwind.png" alt="tailwind">
+                    </li>
+
+                    <li class="border rounded-e-lg flex flex-col items-center p-1 max-w-24 bg-white hover:scale-[1.1] duration-500">
+                        <p class="text-orange-600">GIT</p>
+                        <i class="fa-brands fa-git-alt text-orange-600 text-5xl" aria-hidden="true"></i>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="projetos" class="lg:mt-20">
+            <div class="container max-w-96 p-4  m-auto sm:max-w-xl md:max-w-3xl lg:max-w-4xl xl:max-w-6xl">
+                <h2 class="text-center text-2xl text-white my-4 lg:text-3xl">Projetos</h2>
+
+                <div class="relative overflow-hidden w-full mt-4">
+                    <div id="track" class="flex transition-transform duration-500">
+                        
+                        <!-- Projeto 1 -->
+                        <div class="min-w-full p-3 bg-stone-800 rounded-lg">
+                            <figure class="max-w-full">
+                                <img src="./assets/projetos/site-arquitetura.png" alt="projeto arquitetura" />
+                            </figure>
+                            
+                            <article class="text-center text-white flex flex-col gap-2 items-center">
+                                <h3 class="text-lg text-colorPiscina font-bold">Portfólio/arquitetura</h3>
+                                
+                                <p class="text-sm text-white">Construi o site por completo através do Figma pedido pelo cliente.</p>
+                                
+                                <a href="https://rafaelfalaschii.github.io/Projeto-freeArq/" target="_blank" class="p-2 bg-transparent border border-colorPiscina rounded-lg text-sm text-white w-8/12 sm:w-4/12 hover:bg-white hover:text-colorPiscina duration-500" aria-label="link do projeto">Ver Projeto</a>
+                                
+                                <ul class="flex justify-around items-center gap-10">
+                                    <li>
+                                        <p>HTML5</p>
+                                        <i class="fa-brands fa-html5 text-orange-400 text-5xl" aria-hidden="true"></i>
+                                    </li>
+                                    
+                                    <li>
+                                        <p>CSS3</p>
+                                        <i class="fa-brands fa-css3-alt text-blue-500 text-5xl " aria-hidden="true"></i>
+                                    </li>
+                                    
+                                    <li>
+                                        <p>JAVASCRIPT</p>
+                                        <i class="fa-brands fa-js text-yellow-400 text-5xl" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                            </article>
+                        </div>
+
+                        <!-- Projeto 2 -->
+                        <div class="min-w-full p-3 bg-stone-800 rounded-lg">
+                            <figure class="max-w-full">
+                                <img src="./assets/projetos/site-santos.png" alt="projeto santos" />
+                            </figure>
+                            
+                            <article class="text-center text-white flex flex-col gap-2 items-center">
+                                <h3 class="text-lg text-colorPiscina font-bold">Portfólio/arquitetura</h3>
+                                
+                                <p class="text-sm text-white">Construi o site por completo através do Figma pedido pelo cliente.</p>
+                                
+                                <a href="https://rafaelfalaschii.github.io/Projeto-Santos-Sp/" target="_blank" class="p-2 bg-transparent border border-colorPiscina rounded-lg text-sm text-white w-8/12 sm:w-4/12  hover:bg-white hover:text-colorPiscina duration-500" aria-label="link do projeto">Ver Projeto</a>
+                                
+                                <ul class="flex justify-around items-center gap-10">
+                                    <li>
+                                        <p>HTML5</p>
+                                        <i class="fa-brands fa-html5 text-orange-400 text-5xl " aria-hidden="true"></i>
+                                    </li>
+                                    
+                                    <li>
+                                        <p>CSS3</p>
+                                        <i class="fa-brands fa-css3-alt text-blue-500 text-5xl" aria-hidden="true"></i>
+                                    </li>
+                                    
+                                    <li>
+                                        <p>JAVASCRIPT</p>
+                                        <i class="fa-brands fa-js text-yellow-400 text-5xl" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                            </article>
+                        </div>
+                    </div>
+                        <i class="fas fa-chevron-left absolute top-1/2 left-2 -translate-y-1/2 z-10 cursor-pointer text-colorPiscina text-lg" id="arrow-left"></i>
+                        <i class="fas fa-chevron-right absolute top-1/2 right-2 -translate-y-1/2 z-10 cursor-pointer text-colorPiscina text-lg" id="arrow-right"></i>
+
+                        <div id="dots" class="flex justify-center gap-2 mt-4 text-white text-xs">
+                        <i class="far fa-circle cursor-pointer active:text-black"></i>
+                        <i class="far fa-circle cursor-pointer"></i>
+                    </div>
+            </div>
+        </section>
+
+        <section id="contato" class="lg:mt-20">
+            <div class="container max-w-96  sm:max-w-xl m-auto flex flex-col items-center">
+                <h2 class="text-center text-2xl text-white my-4 lg:text-3xl">Entre em contato comigo</h2>
+
+                <form onsubmit="enviarWhats(event)" id="form" class="flex flex-col items-center gap-2 w-11/12 p-3 bg-stone-800 rounded-lg">
+                    <label for="nome" class="text-colorPiscina text-lg">Nome</label>
+                    <input type="text" name="text" id="nome" class="w-9/12 outline-none border-none">
+
+                    <label for="mensagem" class="text-colorPiscina text-lg">Mensagem</label>
+                    <textarea name="text" id="mensagem" class="text-sm w-9/12 outline-none border-none" placeholder="Digite sua mensagem" rows="6" aria-label="Digite sua mensagem"></textarea>
+
+                    <button type="submit" class="p-3 bg-transparent border border-colorPiscina rounded-lg text-sm text-white  hover:bg-white hover:text-colorPiscina duration-500">Enviar mensagem</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-stone-900 ">
+            <p class="mt-4 p-4 text-center text-white">Copyright © 2025 <a href="#inicio" class="text-colorPiscina">Rafael Falaschi.</a> Todos os direitos reservados.</p>
+    </footer> 
+
+    <script src="./scripts.js"></script>
+</body>
+
+</html>
