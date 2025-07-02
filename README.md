@@ -1,6 +1,6 @@
 #  Rafa Portfolio 💼
 
-Bem-vindo ao meu portfólio pessoal! Este projeto foi desenvolvido com o objetivo de apresentar minhas habilidades, projetos e trajetória como desenvolvedor web frontend.
+Bem-vindo ao meu primeiro portfólio pessoal! Este projeto foi desenvolvido com o objetivo de apresentar minhas habilidades, projetos e trajetória como desenvolvedor web frontend.
 
 ---
 
