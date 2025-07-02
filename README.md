@@ -1,11 +1,15 @@
-Portfolio 💼
+PORTFOLIO 💼
 Portfólio Profissional | Frontend Developer
 
 -Bem-vindo ao meu portfólio principal! Este é meu segundo projeto de portfólio pessoal, desenvolvido com foco em performance, escalabilidade e uma apresentação sólida das minhas habilidades como desenvolvedor web frontend. Esta versão foi construída do zero com tecnologias modernas e boas práticas de desenvolvimento frontend.
+
 ---
+
 📌 Objetivo
 -O objetivo deste portfólio é apresentar minha identidade como desenvolvedor frontend de forma clara, responsiva e profissional, unindo design moderno, interatividade, acessibilidade e organização de código. Além disso, é um projeto que reflete minha constante evolução e aprimoramento técnico na área de desenvolvimento web.
+
 ---
+
 🚀 Tecnologias Utilizadas
 -O projeto foi desenvolvido com um conjunto de ferramentas e bibliotecas modernas que são amplamente utilizadas no mercado:
 
@@ -22,7 +26,9 @@ Portfólio Profissional | Frontend Developer
 -Heroicons / React Icons – ícones vetoriais otimizados para interfaces modernas.
 
 -Dark Mode (CSS + JS) – alternância de tema claro/escuro.
+
 ---
+
 🌐 Funcionalidades
 -Alternância entre modo claro e escuro, com transições suaves e armazenamento da preferência do usuário.
 
@@ -47,7 +53,9 @@ Seções dedicadas:
 -100% responsivo e mobile-first, adaptado para todos os tamanhos de tela.
 
 -Acessibilidade básica com suporte a navegação por teclado e contraste.
+
 ---
+
 📦 Instalação e Execução Local
 Para rodar o projeto localmente:
 
@@ -62,7 +70,9 @@ Para rodar o projeto localmente:
 
 # Execute o projeto
 -npm run dev
+
 ---
+
 📎 Considerações Finais
 -Este projeto representa meu compromisso com a evolução constante como desenvolvedor frontend. Ele serve tanto como vitrine profissional quanto como ambiente de experimentação com novas tecnologias, conceitos de design e práticas modernas de desenvolvimento.
 
